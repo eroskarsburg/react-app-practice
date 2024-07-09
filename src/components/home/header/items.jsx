@@ -1,4 +1,5 @@
 import { Hamburger } from './hamburger';
+import './items.css';
 
 const headerItems = ['Projects', 'About me', 'Contact me'];
 
