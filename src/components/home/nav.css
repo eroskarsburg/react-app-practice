@@ -1,0 +1,13 @@
+.contacts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.header-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 230px;
+}
