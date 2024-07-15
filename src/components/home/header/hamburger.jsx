@@ -2,7 +2,7 @@ import './hamburger.css';
 
 export function Hamburger(){
   return (
-    <div>
+    <div className='hamburger'>
         <input type="checkbox" id="menyAvPaa"></input>
         <label id="burger" for="menyAvPaa">
             <div></div>

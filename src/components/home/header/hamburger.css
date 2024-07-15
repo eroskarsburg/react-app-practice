@@ -1,6 +1,11 @@
 .burger-wrapper {
   cursor: pointer;
 }
+.hamburger{
+    display: flex;
+    align-items: center;
+}
+
 #meny {
     background: #373737;
     width: 20vw;
@@ -11,7 +16,7 @@
     transform: translateX(24vw);
     top: 0;
     z-index: 1;
-    transition: 1s;
+    transition: .5s;
     padding: 12vh 2vw;
 }
 #menyAvPaa {
@@ -36,7 +41,7 @@
 #burger > div {
     height: 2px;
     background-color: white;
-    transition: 0.5s;
+    transition: .5s;
     z-index: 999;
 }
 

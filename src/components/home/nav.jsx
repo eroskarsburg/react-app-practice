@@ -4,9 +4,11 @@ import './nav.css';
 
 export function MainNav() {
   return (
+    <header className="App-header">
       <div className='main-header'>
         <Logo/>
         <Items/>
       </div>
+    </header>
   );
 }

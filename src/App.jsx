@@ -5,12 +5,8 @@ import { MainNav } from './components/home/nav';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <MainNav />
-      </header>
-      <main>
-        <Greetings />
-      </main>
+      <MainNav />
+      <Greetings />
     </div>
   );
 }

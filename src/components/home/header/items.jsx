@@ -9,9 +9,7 @@ export function Items(){
       { headerItems.map( (item) => (
         <h3>{item}</h3>
       ) ) }
-      <div className='hamburger'>
-        <Hamburger/>
-      </div>
+      <Hamburger/>
     </div>
   );
 }
